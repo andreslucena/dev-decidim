@@ -5,7 +5,7 @@ ruby '2.4.1'
 gem "rails", git: "https://github.com/rails/rails"
 
 
-gem "decidim", path: ".."
+gem "decidim", git: "https://github.com/deivid-rodriguez/decidim", branch: "assemblies"
 
 gem 'puma', '~> 3.0'
 gem 'uglifier', '>= 1.3.0'
@@ -14,7 +14,7 @@ gem 'faker', '~> 1.7.3'
 group :development, :test do
   gem 'byebug', platform: :mri
   
-  gem "decidim-dev", path: ".."
+  gem "decidim-dev", git: "https://github.com/deivid-rodriguez/decidim", branch: "assemblies"
   
 end
 
